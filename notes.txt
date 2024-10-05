@@ -1,0 +1,9 @@
+pip freeze > requirements.txt
+''' it will create .txt file '''
+
+"""If you will run pip freeze only it will show installed packages
+in virtual environment or in the system."""
+
+"""In the future other user need to run"""
+pip install -r requirements.txt
+"""on their system """
